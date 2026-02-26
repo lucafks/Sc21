@@ -1,1 +1,0 @@
-resetar_c',broadcast=True
