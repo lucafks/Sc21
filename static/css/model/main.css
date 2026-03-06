@@ -1,0 +1,21 @@
+#container-2{
+    width: 0 auto ;
+    height: 750px;
+    margin: 50px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2vw;
+}
+#a{
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    background-color: blueviolet;
+    width: 831px ;
+}
+#b{
+    background-color: blueviolet;
+    width: 831px;
+}
