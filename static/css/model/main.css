@@ -2,20 +2,77 @@
     width: 0 auto ;
     height: 750px;
     margin: 50px;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 20px;
     padding: 2vw;
 }
 #a{
     display: flex;
     flex-direction: column;
     padding: 14px;
-    background-color: blueviolet;
+    background-color: #6ea49b;
     width: 831px ;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: space-between;
 }
 #b{
-    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    background-color: #6ea49b;
     width: 831px;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: space-between;
+}
+iframe#a1{
+    height: 50%;
+    width: 100%;
+}
+.main-h3{
+    padding: 15px;
+    height: 50%;
+    background-color: #7d3f60;
+    
+    border-radius: 14px;
+}
+#b1{
+    height: 75%;
+}
+#b2{
+    width: 30%;
+    height: 10%;
+    font-size: 200%;
+    margin-bottom: 5%;
+    background-color: #372b2e;
+    color: white;
+    border-color: transparent;
+    transition: linear-gradient 3s ease;
+    background: linear-gradient(to right, #93ad84 0%, #6b8f0b 50%, white 100%);
+    background-size: 300%;  /* Oversize pro shift */
+    background-position: 0%; /* Posição inicial */
+    border-color: #93ad84;
+    border-radius: 0;
+    transition: background-position 0.3s ease, 
+                border-color 0.3s ease, 
+                border-radius 0.3s ease;
+    padding: 10px 20px; /* Ajuste pro seu botão */
+    
+}
+#b2:active{
+    background-color:#6b8f0b;
+    background-image: linear-gradient(to right,white,#6ea49b);
+    border-color: transparent;
+    border-radius: 4px;
+    background-position: 100%; /* Shift suave pro hover */
+    border-color: transparent;
+    border-radius: 4px;
+
+}
+h3{
+    color: #ffffff;
 }
